@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Rubik';
+    background: linear-gradient(149deg, #f5f5f5, #779ad2, #313f94);
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.144);
+    width: 50vh;
+    border: rgba(255, 255, 255, 0.733) 1px solid;
+    border-radius: 90px;
+}
+
+.load {
+    font-size: 5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.head {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 6vh;
+}
+
+img{
+    width: 30vh;
+}
+
+.date {
+    color: white;
+}
