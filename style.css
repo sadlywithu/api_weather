@@ -11,33 +11,43 @@ body {
 }
 
 .section-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 70vh;
     background-color: rgba(255, 255, 255, 0.144);
     width: 50vh;
+    height: 60vh;
     border: rgba(255, 255, 255, 0.733) 1px solid;
-    border-radius: 90px;
+    border-radius: 10%;
 }
 
-.load {
-    font-size: 5rem;
-    color: white;
+.container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fs-1 {
+    font-size: calc(3rem + 1.5vw) !important;
     font-weight: bold;
 }
-
-.head {
-    font-size: 2rem;
+p {
     color: white;
-    margin-bottom: 6vh;
 }
+
 
 img{
-    width: 30vh;
+    width: 20vh;
+    margin-bottom: 10%;
+    margin-top: 20%;
 }
+
 
 .date {
     color: white;
+}
+
+@media (max-width: 480px) {
+    body{
+        padding: 20px;  
+    }
+
 }
